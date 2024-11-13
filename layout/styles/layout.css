@@ -42,8 +42,8 @@ body {
 }
 
 #pageintro .heading {
-    font-size: 7rem;
-    font-weight: 700;
+    font-size: 8rem;
+    font-weight: 450;
     margin: 0;
     color: #FFE5C8;
     text-align: center;
@@ -379,9 +379,10 @@ box-shadow: 0; /* Shadow effect */
 	left: 0;
 	top: 0; /* Ensure it's placed at the top of its container */
 	font-size:0.8rem;
+    color: #FE6B41;
   }
   /* Media Query to hide image-text on smaller screens */
-@media (max-width: 768px) { /* Adjust this width as needed */
+    @media (max-width: 768px) { /* Adjust this width as needed */
     .custom-gallery-container .image-text {
         display: none;
     }
